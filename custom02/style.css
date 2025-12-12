@@ -1,0 +1,15 @@
+.steps {
+  /* background: url(https://assets.codepen.io/85188/wcb-chan-animation.svg) no-repeat; */
+  width: 200px;
+  height: 200px;
+  animation: smile .5s steps(4) alternate infinite;
+}
+
+.steps:hover {
+  animation-play-state: paused;
+}
+@keyframes smile {
+  to {
+    background-position: -800px 0;
+  }
+}
